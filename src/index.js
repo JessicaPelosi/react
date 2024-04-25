@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Calendario from './components/Calendario';
+import Relogio from './components/Relogio';
+import Letreiro from './components/Letreiro';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Calendario />
+    <Relogio />
+    <Letreiro texto="Conheça a Fatec!     " />
   </React.StrictMode>
 );
 
