@@ -1,9 +1,9 @@
-import Calendario from './components/atividade01/Calendario';
-import Relogio from './components/atividade01/Relogio';
-import Letreiro from './components/atividade01/Letreiro';
+import Calendario from './Calendario';
+import Relogio from './Relogio';
+import Letreiro from './Letreiro';
 import { Link } from "react-router-dom";
 
-export default function Atividade01(){
+export default function A01(){
     return (
         <>
           <Link to="/"> Voltar para página inicial </Link>
