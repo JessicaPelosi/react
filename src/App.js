@@ -1,4 +1,4 @@
-import MyRoutes from "./routes/MyRoutes";
+import MyRoutes from "./Routes/MyRoutes";
 
 function App() {
   return (
