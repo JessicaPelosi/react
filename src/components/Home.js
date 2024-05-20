@@ -7,8 +7,9 @@ const Home = () => {
       <h1> Projeto React - Lab Engenharia </h1>
       <nav>
         <ul>
-          <li> <Link to="/A01"> Atividade 01 </Link> </li>
-          <li> <Link to="/A02"> Atividade 02 </Link> </li>
+          <li> <Link to="/Atividade01"> Atividade 01 </Link> </li>
+          <li> <Link to="/Atividade02"> Atividade 02 </Link> </li>
+          <li> <Link to="/Atividade03"> Atividade 03 </Link> </li>
         </ul>
       </nav>
     </div>
