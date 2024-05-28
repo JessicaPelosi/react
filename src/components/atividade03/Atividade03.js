@@ -12,8 +12,14 @@ import TeaGathering from './Cup';
 export default function Atividade03(){
     return (
         <>
-          <Link to="/"> Voltar para página inicial </Link>
-          <h1> Atividade 03 </h1>
+          <div>
+            <Link to="/" style={{textDecoration: "none", color: "black"}}>
+              <button type="button" class="btn btn-dark btn"> 
+                Voltar  
+              </button>  
+            </Link>
+          </div>
+          
           <FirstComponent />
           <Profile />
           <Gallery />

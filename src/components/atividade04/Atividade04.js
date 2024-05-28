@@ -1,4 +1,3 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Link } from "react-router-dom";
 import App from "./App";
 import Gallery from "./Gallery";
@@ -18,8 +17,13 @@ import BucketList from "./BucketList";
 export function Atividade04() {
     return (
         <>
-            <Link to="/"> Voltar para página inicial </Link>
-            <h1> Atividade 04 </h1>
+            <div>
+                <Link to="/" style={{textDecoration: "none", color: "black"}}>
+                    <button type="button" class="btn btn-dark btn"> 
+                        Voltar  
+                    </button>  
+                </Link>
+            </div>
             <App />
             <Gallery />
             <Counter />

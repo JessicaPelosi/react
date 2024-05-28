@@ -6,12 +6,16 @@ import { Link } from "react-router-dom";
 export default function Atividade01(){
     return (
         <>
-          <Link to="/"> Voltar para página inicial </Link>
-          <h1> Atividade 01 </h1>
+          <div>
+            <Link to="/" style={{textDecoration: "none", color: "black"}}>
+              <button type="button" class="btn btn-dark btn"> 
+                Voltar  
+              </button>  
+            </Link>
+          </div>
           <Calendario />
           <Relogio />
-          <Letreiro texto="Conheça a Fatec!     " />
-          
+          <Letreiro texto="Conheça a Fatec!     " /> 
         </>
     );
 }
