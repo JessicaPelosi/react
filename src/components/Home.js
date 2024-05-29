@@ -37,6 +37,14 @@ const Home = () => {
               </button> 
             </Link>
           </div>
+
+          <div style={{padding: "0.5%"}}>
+            <Link to="/Atividade05" style={{textDecoration: "none", color: "black"}}> 
+              <button type="button" style={{width: "80%"}} class="btn btn-dark btn-lg"> 
+                    Atividade 05 
+              </button> 
+            </Link>
+          </div>
           
         </nav>
       </div>
